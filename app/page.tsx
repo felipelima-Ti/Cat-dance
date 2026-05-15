@@ -295,7 +295,7 @@ export default function DanceGame() {
             <div><strong>Controles:</strong> teclas D, F, J, K — ou toque nos botões abaixo das pistas no celular.</div>
             <audio
               ref={audioRef}
-              src="/rock-that-body.mp3"
+              src="https://www.dropbox.com/scl/fi/ge2le2bl8jw77k4qfsiyc/rock-that-body.mp3?rlkey=aic0xg0ezxm4mtb9asswneu37&st=8edul34h&raw=1"
               preload="auto"
               onEnded={onAudioEnded}
               onError={() => setAudioMissing(true)}
